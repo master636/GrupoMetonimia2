@@ -1,0 +1,39 @@
+.ClsClinica {
+    /* float: left;  */
+    color: #c3cdcd;
+    width: 100%;
+    margin-left: 70px; 
+    margin-right: 25px;
+    
+}
+.ClsClinica h1 {
+    text-align: center;
+    
+}
+.ClsClinica h2 {
+    text-align: center;
+}
+.ClsClinica h3 {
+    text-align: center;
+    border: 1px solid black;
+    background: #EC6900;
+}
+.ClsClinica p {
+    text-align: justify;
+}
+.ClsClinica ol {
+    margin-left: 60px;
+}
+.ClsClinica table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    
+}
+.ClsClinica table tr td {
+    justify-content: center;
+    text-align: center;
+}
+.ClsClinica table td,th {
+    border: 1px solid black;
+}

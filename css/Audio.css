@@ -1,0 +1,23 @@
+.clsAudios {
+    display: grid;
+    justify-content: center; 
+ 
+}
+
+.clsAudios img {
+    /* justify-content: center; */
+ 
+    display: flex;
+    width: 100%;
+}
+
+.clsAudios h2 {
+    font-size: 20px;
+    color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    .clsAudios h2 {
+        font-size: 10px;
+    }
+}

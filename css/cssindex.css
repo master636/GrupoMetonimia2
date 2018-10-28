@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body { background: rgba(4, 4, 4, 0.86); font-family: "open sans"; }
+/* .clsdivbarranav { display: none;} */
+
+.ClsImagenesPrueba { background: blue; }
+.ClsHeader nav {
+  display: none;
+
+}
+
+.ClsHeader {  background: #EC6900; color: White; height: 76px; width: 100%; display: none; }
+.clsLogo3d img { width: 7%; display: flex; margin-left: 3%;}
+.clsMenu { display: flex; justify-content: center; flex-wrap: wrap; margin-top: 15px; /*border: 1px solid #EC6900;*/ }
+.clsMenu button { width: 150px; height: 25px; color: white; }
+
+
+.clsFooter {  background: #EC6900; margin-top: 40px; padding-top: 10px; display: inline-grid; justify-content: right; flex-wrap: wrap; width: 99%; height: 70px;}
+
+.cls3parrafos { display: flex; position: absolute; justify-content: space-evenly; width: 90%;}
+
+
+
+
+.clsDivFooter { display: flex;justify-content: center; }
+.clsContacto { color: white; margin-top: 0px; display: flex; width: 435px; flex-wrap: wrap; }
+.clsContacto img { display: block; width: 300px; height: 70px;}
+.clsContacto strong { display: block; }
+.clsContacto a { color: white; text-decoration: none; margin-left: 55px; }
+.clsFormulario { display: flex; width: 420px; color: White; margin-right: 50px; }
+.clsFormulario label, .clsSexo, .clsIntereses { margin-bottom: 10px; }
+.clsColumna1 { margin-right: 15px; }
+.clsColumna1, .clsColumna2{ display: flex; flex-direction: column; align-items: flex-start; }
+.clsIntereses { width: 150px; }
+.clsIntereses label { font-size: 12px; }
+.clsBoton { border-radius: 5px; background: #EC6900; color: White; padding: 3px;}
+.ClsSecciondeLogoyslide { display: block;  }
+.ClsSecciondeLogoyservicios { display:flex;}
+.clsServicios { float: left; color: #c3cdcd;width: 100%;margin-left: 70px; margin-right: 25px;}
+
+.ClsEnclaces { width: 100%;  /*float: left;*/ display:inline-block;  color: #fff; margin-right: 25px;margin-top: 25px; border-radius: 5px; /*border: 2px solid red;*/ display: flex; justify-content: center;}
+.ClsEnclaces ul li{  list-style: none; justify-content:space-between; padding: 0px;}
+.ClsEnclaces ul { padding: 0px;}
+.ClsEnclaces img { width: 50px ; height: 50px; margin-left: 0px;}
+.ClsEnclaces h2 {margin-left: 5px; margin-right: 5px;}
+.clsPublicaciones { float: left; color: #c3cdcd;width: 100%; margin-left: 25px;margin-right: 25px;}
+.clsEldesnudoFemenino { float: left; color: #c3cdcd;width: 100%;}
+.clsTextoPublicaciones { font-size: 30px;}
+.textojustificado { }
+.clstriptico { display: flex; justify-content: center; /*border: 1px solid red;*/}
+.clstriptico img { width: 50%; height: 50%;  }
+.clsImgCartel1ercongreso {display: flex; justify-content: center;}
+.clsImgCartel1ercongreso img { width: 900px; height: 1392px;}
+.clsimagenmachote {display: flex; justify-content: center; }
+.clsimagenmachote img {width: 1200px; height: 900px;}
+.clsEventosProximos { color: #c3cdcd;width: 100%; height: 400px; margin-left: 70px; margin-right: 25px; display: flex;}
+.clsEventosProximos2 h2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  color:#c3cdcd;
+  /* list-style: none; */
+}
+
+
+
+
+.clstextoanimado1 {
+  border: 1px solid #EC6900;
+  display: flex;
+  width: 99%;
+  height: 28px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;;
+
+  overflow: hidden;
+
+
+}
+
+.clstextoanimado1 ul {
+  display: inline-table;
+  color: red;
+  list-style: none;
+  padding-left: 10px;
+  animation: cambiar 7s infinite;
+
+}
+
+.clstextoanimado1 ul li {
+  display: flex;
+}
+
+.clstextoanimado1 p {
+display: inline-table;
+/* justify-content: space-between; */
+}
+
+
+
+@keyframes cambiar {
+  0%{ margin-top: 0; }
+  20%{margin-top: 0;}
+  25%{margin-top: -25px;}
+  50%{margin-top: -25px;}
+  55%{margin-top: -50px;}
+  80%{margin-top: -50px;}
+  85%{margin-top: -25px;}
+  95%{margin-top: -25px;}
+  100%{margin-top: 0;}
+}
+
+
+@media screen and (max-width: 1000px) {
+  .ClsHeader {
+    display: block;
+  }
+  .clsLogo3d {
+    display: none;
+  }
+  .clstriptico img { 
+    width: 80%; 
+    height: 80%;  
+  }
+}
+@media screen and (max-width: 700px) {
+  .clsteztodescarga1ercongreso a {
+    font-size: 15px;
+  }
+  .cls3parrafos {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .clstextoanimado1 {
+    font-size: 6px;
+  }
+   
+}
+
+@media screen and (max-width: 350px) {
+  .clsteztodescarga1ercongreso a {
+    font-size: 12px;
+  }
+  .cls3parrafos {
+    width: 70%;
+  }
+}

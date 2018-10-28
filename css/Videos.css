@@ -1,0 +1,46 @@
+iframe {
+    display: block;
+    width: 100%;
+}
+
+.ClsVideos {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.ClsVideos__item {
+    width: 80%;
+    cursor: pointer;
+    margin: 10px;
+    border: 5px solid #fff;
+}
+
+@media screen and (min-width: 480px) {
+    .ClsVideos__item {
+        width: 48%;
+        margin: 10px;
+    
+        
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .ClsVideos__item {
+        width: 40%;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ClsVideos__item {
+        width: 30%;
+        margin: 10px;
+        
+    }
+
+    
+}

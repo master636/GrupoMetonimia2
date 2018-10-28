@@ -1,0 +1,21 @@
+.ClsConferencistas {
+    color: #c3cdcd;
+    width: 100%;
+    margin-left: 70px; 
+    margin-right: 25px;
+}
+
+.ClsConferencistas h2 {
+    text-align: center;
+    border: 1px solid black;
+    background: #EC6900;
+}
+
+.ClsConferencistas img {
+    display:block;
+    margin:auto;
+}
+.ClsConferencistas h3 {
+    text-align: center;
+}
+

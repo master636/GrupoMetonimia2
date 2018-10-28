@@ -1,0 +1,138 @@
+.clsdivbarranav {
+  /* display: flex; */
+  margin-top:-4%;
+    width: 100%;
+    overflow: hidden;
+    height: 120px;
+    position: sticky;
+}
+
+
+ 
+.clsbarranav {
+  top: -20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 20px auto;
+  width: 70%;
+  max-width: 1000px;
+}
+
+.clsbarranav ul {
+  list-style: none;
+}
+
+.clsbarranav > ul {
+  display: table;
+  width: 100%;
+  background: #EC6900;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.clsbarranav > ul li{
+  display: table-cell;
+}
+
+
+
+.clsbarranav > ul > li:hover > ul {
+  display: block;
+  height: 100%;
+}
+
+.clsbarranav > ul > li > ul {
+  display: block;
+  position: absolute;
+  background: #EC6900;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  height: 0%;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+
+}
+
+
+
+.clsbarranav > ul > li > ul {
+  /* display: none; */
+}
+
+
+.clsbarranav > ul li a {
+  color: #fff;
+  display: block;
+  line-height: 20px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+
+}
+
+.clsbarranav > ul > li > ul > li a:hover {
+  background: #000;
+}
+
+.clsbarranav > ul > li > a span {
+  background: #000;
+  display: block;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: -55px;
+
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.clsbarranav > ul > li > a span .icon {
+  display: inline-block;
+  line-height: 60px;
+  margin-top: 21px;
+}
+
+.clsbarranav > ul > li > a:hover > span {
+  top: 0;
+}
+
+
+/* resposive */
+@media screen and (max-width: 1000px) {
+  .clsdivbarranav {
+    display: none;
+
+  }
+  .ClsHeader {
+    height: 7px;
+  }
+ 
+  
+
+
+.clsbarranav > ul > li > a span {
+  display: none;
+
+}
+
+}
+@media screen and (max-width: 800px) {
+  
+
+  
+}
